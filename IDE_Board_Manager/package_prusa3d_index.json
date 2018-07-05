@@ -24,11 +24,11 @@
           "boards": [
             {
               "name": "Prusa MM control"
-            },
+            }
           ],
           "toolsDependencies": []
-        },
-      ],
-    },
+        }
+      ]
+    }
   ]
 }
