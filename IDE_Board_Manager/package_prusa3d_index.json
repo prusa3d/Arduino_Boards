@@ -1,71 +1,32 @@
 {
   "packages": [
     {
-      "name": "myboard",
-      "maintainer": "Jane Developer",
-      "websiteURL": "https://github.com/janedeveloper/myboard",
-      "email": "jane@janedeveloper.org",
+      "name": "PrusaResearch",
+      "maintainer": "Prusa Research",
+      "websiteURL": "https://www.prusa3d.com/",
+      "email": "info@prusa3d.com",
       "help": {
-        "online": "http://janedeveloper.org/forum/myboard"
+        "online": "https://github.com/prusa3d/Arduino_Boards"
       },
       "platforms": [
         {
-          "name": "My Board",
+          "name": "Prusa Research AVR Boards",
           "architecture": "avr",
           "version": "1.0.0",
           "category": "Contributed",
+          "url": "https://raw.githubusercontent.com/prusa3d/Arduino_Boards/master/IDE_Board_Manager/prusa3dboards-1.0.0.tar.bz2",
+          "archiveFileName": "prusa3dboards-1.0.0.tar.bz2",
+          "checksum": "SHA-256:2871367da5f3929deed2abf43f0582ec89821f14750cb90be2d524bd1012e25a",
+          "size": "32769",
           "help": {
-            "online": "http://janedeveloper.org/forum/myboard"
+            "online": "https://learn.sparkfun.com/tutorials/installing-arduino-ide/board-add-ons-with-arduino-board-manager"
           },
-          "url": "https://janedeveloper.github.io/myboard/myboard-1.0.0.zip",
-          "archiveFileName": "myboard-1.0.0.zip",
-          "checksum": "SHA-256:ec3ff8a1dc96d3ba6f432b9b837a35fd4174a34b3d2927de1d51010e8b94f9f1",
-          "size": "15005",
           "boards": [
-            {"name": "My Board"},
-            {"name": "My Board Pro"}
-          ],
-          "toolsDependencies": [
             {
-              "packager": "arduino",
-              "name": "avr-gcc",
-              "version": "4.8.1-arduino5"
-            },
-            {
-              "packager": "arduino",
-              "name": "avrdude",
-              "version": "6.0.1-arduino5"
+              "name": "Prusa MM control"
             }
-          ]
-        },
-        {
-          "name": "My Board",
-          "architecture": "avr",
-          "version": "1.0.1",
-          "category": "Contributed",
-          "help": {
-            "online": "http://janedeveloper.org/forum/myboard"
-          },
-          "url": "https://janedeveloper.github.io/myboard/myboard-1.0.1.zip",
-          "archiveFileName": "myboard-1.0.1.zip",
-          "checksum": "SHA-256:9c86ee28a7ce9fe33e8b07ec643316131e0031b0d22e63bb398902a5fdadbca9",
-          "size": "15125",
-          "boards": [
-            {"name": "My Board"},
-            {"name": "My Board Pro"}
           ],
-          "toolsDependencies": [
-            {
-              "packager": "arduino",
-              "name": "avr-gcc",
-              "version": "4.8.1-arduino5"
-            },
-            {
-              "packager": "arduino",
-              "name": "avrdude",
-              "version": "6.0.1-arduino5"
-            }
-          ]
+          "toolsDependencies": []
         }
       ],
       "tools":[]
