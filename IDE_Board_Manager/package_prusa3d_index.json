@@ -16,14 +16,14 @@
           "category": "Contributed",
           "url": "https://raw.githubusercontent.com/prusa3d/Arduino_Boards/master/IDE_Board_Manager/prusa3dboards-1.0.0.tar.bz2",
           "archiveFileName": "prusa3dboards-1.0.0.tar.bz2",
-          "checksum": "SHA-256:2871367da5f3929deed2abf43f0582ec89821f14750cb90be2d524bd1012e25a",
-          "size": "32769",
+          "checksum": "SHA-256:3bea013e68034f201771ed85f8a1ebe491182a9080eb01abf5935aeea02b3d0e",
+          "size": "32780",
           "help": {
             "online": "https://learn.sparkfun.com/tutorials/installing-arduino-ide/board-add-ons-with-arduino-board-manager"
           },
           "boards": [
             {
-              "name": "Prusa MM control"
+              "name": "Original Prusa i3 MK3 Multi Material 2.0 upgrade"
             }
           ],
           "toolsDependencies": []
