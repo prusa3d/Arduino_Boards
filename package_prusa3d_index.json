@@ -1,0 +1,34 @@
+{
+  "packages": [
+    {
+      "name": "PrusaResearch",
+      "maintainer": "Prusa Research",
+      "websiteURL": "https://www.prusa3d.com/",
+      "email": "info@prusa3d.com",
+      "help": {
+        "online": "https://github.com/prusa3d/Arduino_Boards"
+      },
+      "platforms": [
+        {
+          "name": "Prusa Research AVR Boards",
+          "architecture": "avr",
+          "version": "0.1.0",
+          "category": "Contributed",
+          "url": "https://github.com/prusa3d/Arduino_Boards/raw/master/IDE_Board_Manager/prusa3dboards.0.1.0.tar.bz2",
+          "archiveFileName": "prusa3dboards.0.1.0.tar.bz2",
+          "checksum": "SHA-256:875f88ba6bf25fdeed179a3569a9123e9503ba368e6ec36d95295d3d936ef9fb",
+          "size": "32756",
+          "help": {
+            "online": "https://learn.sparkfun.com/tutorials/installing-arduino-ide/board-add-ons-with-arduino-board-manager"
+          },
+          "boards": [
+            {
+              "name": "Prusa MM control"
+            },
+          ],
+          "toolsDependencies": []
+        },
+      ],
+    },
+  ]
+}
