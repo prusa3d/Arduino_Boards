@@ -27,7 +27,7 @@
             }
           ],
           "toolsDependencies": []
-        }
+        },
         {
           "name": "Prusa Research AVR MK3 RAMBo EINSy",
           "architecture": "avr",
