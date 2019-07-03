@@ -27,7 +27,19 @@
             }
           ],
           "toolsDependencies": []
-        },
+        }
+      ],
+      "tools":[]
+    },
+    {
+      "name": "PrusaResearch",
+      "maintainer": "Prusa Research",
+      "websiteURL": "https://www.prusa3d.com/",
+      "email": "info@prusa3d.com",
+      "help": {
+        "online": "https://github.com/DRracer/Arduino_Boards"
+      },
+      "platforms": [
         {
           "name": "Prusa Research AVR MK3 RAMBo EINSy",
           "architecture": "avr",
@@ -50,5 +62,6 @@
       ],
       "tools":[]
     }
+
   ]
 }
