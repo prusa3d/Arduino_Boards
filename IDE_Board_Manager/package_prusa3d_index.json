@@ -47,8 +47,8 @@
           "category": "Contributed",
           "url": "https://raw.githubusercontent.com/DRracer/Arduino_Boards/master/IDE_Board_Manager/prusa3drambo-1.0.0.tar.bz2",
           "archiveFileName": "prusa3drambo-1.0.0.tar.bz2",
-          "checksum": "SHA-256:d9b8e59df5f6cb630a541e1baaa7a15bb9cd57ed5276a5d2dcd99ec0762db0f5",
-          "size": "53453",
+          "checksum": "SHA-256:301c12cc01d3d3f0c5737218321efee9b4a8c85adfeffec2b4ec074b7978728c",
+          "size": "53405",
           "help": {
             "online": "https://learn.sparkfun.com/tutorials/installing-arduino-ide/board-add-ons-with-arduino-board-manager"
           },
