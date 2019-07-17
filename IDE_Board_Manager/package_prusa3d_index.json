@@ -45,7 +45,7 @@
           "architecture": "avr",
           "version": "1.0.1",
           "category": "Contributed",
-          "url": "https://raw.githubusercontent.com/3d-gussner/Arduino_Boards/master/IDE_Board_Manager/prusa3drambo-1.0.1.tar.bz2",
+          "url": "https://raw.githubusercontent.com/3d-gussner/Arduino_Boards/Fix_maximum_firmware_flash_size/IDE_Board_Manager/prusa3drambo-1.0.1.tar.bz2",
           "archiveFileName": "prusa3drambo-1.0.1.tar.bz2",
           "checksum": "SHA-256:68996c5de9e29603bdff3d8b7aba115f30e37383e7a3e9b89921799574d1cb31",
           "size": "53425",
