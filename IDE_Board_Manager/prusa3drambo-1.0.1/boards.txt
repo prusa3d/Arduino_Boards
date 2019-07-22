@@ -1,0 +1,31 @@
+# See: https://github.com/arduino/Arduino/wiki/Arduino-IDE-1.5---3rd-party-Hardware-specification
+
+##############################################################
+
+menu.cpu=Processor
+
+########################################
+## RAMBo
+########################################
+rambo.name=PrusaResearch EINSY RAMBo
+rambo.vid.0=0x27b1
+rambo.pid.0=0x0001
+
+rambo.upload.tool=arduino:avrdude
+rambo.upload.protocol=wiring
+rambo.upload.maximum_size=253952
+rambo.upload.speed=115200
+
+rambo.bootloader.low_fuses=0xFF
+rambo.bootloader.high_fuses=0xD8
+rambo.bootloader.extended_fuses=0xFD
+rambo.bootloader.path=stk500v2
+#rambo.bootloader.file=stk500boot_v2_mega2560.hex
+rambo.bootloader.unlock_bits=0x3F
+rambo.bootloader.lock_bits=0x0F
+
+rambo.build.mcu=atmega2560
+rambo.build.f_cpu=16000000L
+rambo.build.board=AVR_RAMBO
+rambo.build.core=rambo
+rambo.build.variant=rambo
