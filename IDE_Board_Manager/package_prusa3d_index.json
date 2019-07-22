@@ -57,7 +57,18 @@
               "name": "Original Prusa i3 MK3/MK3S EINSY RAMBo"
             }
           ],
-          "toolsDependencies": []
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "4.9.2-atmel3.5.4-arduino2"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.3.0-arduino9"
+            }
+          ]
         }
       ],
       "tools":[]
