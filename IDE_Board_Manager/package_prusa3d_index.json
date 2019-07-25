@@ -37,11 +37,11 @@
       "websiteURL": "https://www.prusa3d.com/",
       "email": "info@prusa3d.com",
       "help": {
-        "online": "https://github.com/3d-gussner/Arduino_Boards"
+        "online": "https://github.com/prusa3d/Arduino_Boards"
       },
       "platforms": [
         {
-          "name": "Prusa Research AVR MK3 RAMBo EINSy",
+          "name": "Prusa Research AVR MK3 Einsy RAMBo",
           "architecture": "avr",
           "version": "1.0.1",
           "category": "Contributed",
@@ -54,7 +54,7 @@
           },
           "boards": [
             {
-              "name": "Original Prusa i3 MK3/MK3S EINSY RAMBo"
+              "name": "Original Prusa i3 MK3/MK3S Einsy RAMBo"
             }
           ],
           "toolsDependencies": [
