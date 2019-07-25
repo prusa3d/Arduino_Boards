@@ -6,7 +6,7 @@
       "websiteURL": "https://www.prusa3d.com/",
       "email": "info@prusa3d.com",
       "help": {
-        "online": "https://github.com/DRracer/Arduino_Boards"
+        "online": "https://github.com/prusa3d/Arduino_Boards"
       },
       "platforms": [
         {
@@ -14,7 +14,7 @@
           "architecture": "avr",
           "version": "1.0.0",
           "category": "Contributed",
-          "url": "https://raw.githubusercontent.com/DRracer/Arduino_Boards/master/IDE_Board_Manager/prusa3dboards-1.0.0.tar.bz2",
+          "url": "https://raw.githubusercontent.com/prusa3d/Arduino_Boards/master/IDE_Board_Manager/prusa3dboards-1.0.0.tar.bz2",
           "archiveFileName": "prusa3dboards-1.0.0.tar.bz2",
           "checksum": "SHA-256:df1061544109119ffaa2ea3fa9820aa6469f288213661e23405b7f190fd71b12",
           "size": "32792",
@@ -45,7 +45,7 @@
           "architecture": "avr",
           "version": "1.0.1",
           "category": "Contributed",
-          "url": "https://raw.githubusercontent.com/3d-gussner/Arduino_Boards/Fix_maximum_firmware_flash_size/IDE_Board_Manager/prusa3drambo-1.0.1.tar.bz2",
+          "url": "https://raw.githubusercontent.com/prusa3d/Arduino_Boards/master/IDE_Board_Manager/prusa3drambo-1.0.1.tar.bz2",
           "archiveFileName": "prusa3drambo-1.0.1.tar.bz2",
           "checksum": "SHA-256:68996c5de9e29603bdff3d8b7aba115f30e37383e7a3e9b89921799574d1cb31",
           "size": "53425",
