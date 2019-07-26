@@ -15,7 +15,7 @@
           "version": "1.0.1",
           "category": "Contributed",
           "url": "https://raw.githubusercontent.com/DRracer/Arduino_Boards/master/IDE_Board_Manager/prusa3dboards-1.0.0.tar.bz2",
-          "archiveFileName": "prusa3dboards-1.0.0.tar.bz2",
+          "archiveFileName": "prusa3dboards-1.0.1.tar.bz2",
           "checksum": "SHA-256:858cec0d14a549f637a558e51de29917796b37eaa9e1e8d6bd7449ba6bcd1ffd",
           "size": "32469",
           "help": {
@@ -34,7 +34,7 @@
           "version": "1.0.0",
           "category": "Contributed",
           "url": "https://raw.githubusercontent.com/3d-gussner/Arduino_Boards/V1.0.1/IDE_Board_Manager/prusa3dboards-1.0.1.tar.bz2",
-          "archiveFileName": "prusa3dboards-1.0.1.tar.bz2",
+          "archiveFileName": "prusa3dboards-1.0.0.tar.bz2",
           "checksum": "SHA-256:df1061544109119ffaa2ea3fa9820aa6469f288213661e23405b7f190fd71b12",
           "size": "32792",
           "help": {
