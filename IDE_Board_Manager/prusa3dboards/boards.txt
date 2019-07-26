@@ -30,7 +30,7 @@ prusa_mm_control.bootloader.tool=avrdude
 prusa_mm_control.bootloader.low_fuses=0xff
 prusa_mm_control.bootloader.high_fuses=0xd8
 prusa_mm_control.bootloader.extended_fuses=0xcb
-prusa_mm_control.bootloader.file=caterina/Caterina-prusa_mm_control.hex
+prusa_mm_control.bootloader.file=prusa_mm_control/Caterina-prusa_mm_control.hex
 prusa_mm_control.bootloader.unlock_bits=0x3F
 prusa_mm_control.bootloader.lock_bits=0x2F
 
