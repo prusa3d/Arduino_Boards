@@ -12,7 +12,7 @@
         {
           "name": "Prusa Research AVR MMU Boards",
           "architecture": "avr",
-          "version": "1.0.0",
+          "version": "1.0.1",
           "category": "Contributed",
           "url": "https://raw.githubusercontent.com/DRracer/Arduino_Boards/master/IDE_Board_Manager/prusa3dboards-1.0.0.tar.bz2",
           "archiveFileName": "prusa3dboards-1.0.0.tar.bz2",
@@ -31,7 +31,7 @@
         {
           "name": "Prusa Research AVR MMU Boards",
           "architecture": "avr",
-          "version": "1.0.1",
+          "version": "1.0.0",
           "category": "Contributed",
           "url": "https://raw.githubusercontent.com/3d-gussner/Arduino_Boards/V1.0.1/IDE_Board_Manager/prusa3dboards-1.0.1.tar.bz2",
           "archiveFileName": "prusa3dboards-1.0.1.tar.bz2",
