@@ -63,32 +63,32 @@ Folder Structure:
 
     .
     +-- IDE_Boards_Manager
-    ¦   +-- prusa3dboards          Please don't change that folder name when you update your Github and post a PR.
-    ¦   +-- bootloaders
-    ¦       +-- prusa_einsy_rambo  Which is a clone of https://github.com/prusa3d/stk500v2-prusa 
-    ¦       +-- prusa_mm_control
-    ¦   +-- cores
-    ¦       +-- prusa_einsy_rambo
-    ¦   +-- variants
-    ¦       +-- prusa_einsy_rambo
-    ¦       +-- prusa_mm_control
-    ¦   +-- ... 
+    Â¦   +-- prusa3dboards          Please don't change that folder name when you update your Github and post a PR.
+    Â¦   +-- bootloaders
+    Â¦       +-- prusa_einsy_rambo  Which is a clone of https://github.com/prusa3d/stk500v2-prusa 
+    Â¦       +-- prusa_mm_control
+    Â¦   +-- cores
+    Â¦       +-- prusa_einsy_rambo
+    Â¦   +-- variants
+    Â¦       +-- prusa_einsy_rambo
+    Â¦       +-- prusa_mm_control
+    Â¦   +-- ... 
     +-- ...
     
 Files:
 
     .
     +-- IDE_Boards_Manager
-    ¦   +-- prusa3dboards                Please don't change that folder name when you update your Github and post a PR.
-    ¦      +-- boards.txt                contains definitions for the boards (board name, parameters for building and uploading sketches, etc.). 
-    ¦      +-- platform.txt             contains definitions for the CPU architecture used (compiler, build process parameters, tools used for upload, etc.).
-    ¦      +-- avrdude.conf       
-    ¦      +-- ...
-    ¦   +-- package_prusa3d_index.json
-    ¦   +-- prusa3dboards.version             contains the release version numbers and is used in `Prepare-new-version.sh`. The first line is used.
-    ¦   +-- prusa3dboards-<versions>.tar.bz2  actual used pacakges for Ardunio IDE Boards Manager
-    ¦   +-- prusa3dboards-<versions>.md       Info about the version
-    ¦   +-- ...
+    Â¦   +-- prusa3dboards                Please don't change that folder name when you update your Github and post a PR.
+    Â¦      +-- boards.txt                contains definitions for the boards (board name, parameters for building and uploading sketches, etc.). 
+    Â¦      +-- platform.txt             contains definitions for the CPU architecture used (compiler, build process parameters, tools used for upload, etc.).
+    Â¦      +-- avrdude.conf       
+    Â¦      +-- ...
+    Â¦   +-- package_prusa3d_index.json
+    Â¦   +-- prusa3dboards.version             contains the release version numbers and is used in `Prepare-new-version.sh`. The first line is used.
+    Â¦   +-- prusa3dboards-<versions>.tar.bz2  actual used pacakges for Ardunio IDE Boards Manager
+    Â¦   +-- prusa3dboards-<versions>.md       Info about the version
+    Â¦   +-- ...
     +-- LICENSE
     +-- README.md
     +-- ...
@@ -136,10 +136,10 @@ After modifying the source code please follow these steps:
          {
           "name": "Prusa Research AVR Boards",
           "architecture": "avr",
-          "version": "1.1.0",
+          "version": "1.0.2",
           "category": "Contributed",
-          "url": "https://raw.githubusercontent.com/3d-gussner/Arduino_Boards/V1.1.0/IDE_Board_Manager/prusa3dboards-1.1.0.tar.bz2",
-          "archiveFileName": "prusa3dboards-1.1.0.tar.bz2",
+          "url": "https://raw.githubusercontent.com/3d-gussner/Arduino_Boards/V1.0.2/IDE_Board_Manager/prusa3dboards-1.0.2.tar.bz2",
+          "archiveFileName": "prusa3dboards-1.0.2.tar.bz2",
           "checksum": "SHA-256:7d49c48d86644513bd2f2222024934e827783f9f5be160c8a1ae14e177d0393a",
           "size": "120855",
           "help": {
@@ -160,7 +160,7 @@ After modifying the source code please follow these steps:
 
 - Copy and paste this section twice
 - Modify the top one with new values
-  - change `"version": "1.1.0",` `"version": "<version shown by Prepare-new-version.sh>",
+  - change `"version": "1.0.2",` `"version": "<version shown by Prepare-new-version.sh>",
   - change in `"url":` and `"archiveFileName":` the "ArchiveFileName" parts you got from `Prepare-new-version.sh`
   - if you have your own github for of this repository and you made a new worktree/branch to test your code you should not forget to modify the `"url":` to your `branch`
   - change in `"checksum": ` the "SHA256 checksum" you got from `Prepare-new-version.sh`
