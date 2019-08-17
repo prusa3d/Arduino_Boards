@@ -1,0 +1,3 @@
+1.0.2   # With bootloader and compiler.c.elf.extra_flags for Prusa Einsy/RAMBo Prusa Frimware
+1.0.1   # Added Einsy/miniRAMBo boards
+1.0.0   # Original Prusa i3 MK3 Multi Material 2.0 upgrade

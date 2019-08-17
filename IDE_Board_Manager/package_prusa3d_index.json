@@ -10,11 +10,33 @@
       },
       "platforms": [
         {
+          "name": "Prusa Research AVR Boards",
+          "architecture": "avr",
+          "version": "1.0.2",
+          "category": "Contributed",
+          "url": "https://raw.githubusercontent.com/3d-gussner/Arduino_Boards/V1.0.2/IDE_Board_Manager/prusa3dboards-1.0.2.tar.bz2",
+          "archiveFileName": "prusa3dboards-1.0.2.tar.bz2",
+          "checksum": "SHA-256:6a7f6c4a932786b7e68f81a16fae050aa94c8dae0c742ea3c7b9af52e62858a5",
+          "size": "101166",
+          "help": {
+            "online": "https://github.com/3d-gussner/Arduino_Boards/blob/V1.0.2/IDE_Board_Manager/prusa3dboards-1.0.2.md"
+          },
+          "boards": [
+            {
+              "name": "Original Prusa i3 MK3 Multi Material 2.0 upgrade"
+            },
+            {
+              "name": "Original Prusa i3 MK3/MK3S Einsy RAMBo"
+            }
+          ],
+          "toolsDependencies": []
+        },
+        {
           "name": "Prusa Research AVR MMU Boards",
           "architecture": "avr",
           "version": "1.0.1",
           "category": "Contributed",
-          "url": "https://raw.githubusercontent.com/3d-gussner/Arduino_Boards/V1.0.1/IDE_Board_Manager/prusa3dboards-1.0.1.tar.bz2",
+          "url": "https://raw.githubusercontent.com/3d-gussner/Arduino_Boards/V1.0.2/IDE_Board_Manager/prusa3dboards-1.0.1.tar.bz2",
           "archiveFileName": "prusa3dboards-1.0.1.tar.bz2",
           "checksum": "SHA-256:858cec0d14a549f637a558e51de29917796b37eaa9e1e8d6bd7449ba6bcd1ffd",
           "size": "32469",
@@ -33,12 +55,12 @@
           "architecture": "avr",
           "version": "1.0.0",
           "category": "Contributed",
-          "url": "https://raw.githubusercontent.com/3d-gussner/Arduino_Boards/V1.0.1/IDE_Board_Manager/prusa3dboards-1.0.0.tar.bz2",
+          "url": "https://raw.githubusercontent.com/3d-gussner/Arduino_Boards/V1.0.2/IDE_Board_Manager/prusa3dboards-1.0.0.tar.bz2",
           "archiveFileName": "prusa3dboards-1.0.0.tar.bz2",
           "checksum": "SHA-256:df1061544109119ffaa2ea3fa9820aa6469f288213661e23405b7f190fd71b12",
           "size": "32792",
           "help": {
-            "online": "https://learn.sparkfun.com/tutorials/installing-arduino-ide/board-add-ons-with-arduino-board-manager"
+            "online": "https://github.com/3d-gussner/Arduino_Boards/blob/V1.0.2_merged_boards/IDE_Board_Manager/prusa3dboards-1.0.0.md"
           },
           "boards": [
             {
@@ -51,7 +73,7 @@
       "tools":[]
     },
     {
-      "name": "PrusaResearchRambo",
+      "name": "PrusaResearchEinsyRAMBo",
       "maintainer": "Prusa Research",
       "websiteURL": "https://www.prusa3d.com/",
       "email": "info@prusa3d.com",
@@ -60,16 +82,84 @@
       },
       "platforms": [
         {
+          "name": "Prusa Research AVR MK3/MK3S Einsy RAMBo",
+          "architecture": "avr",
+          "version": "1.0.2-a",
+          "category": "Contributed",
+          "url": "https://raw.githubusercontent.com/3d-gussner/Arduino_Boards/V1.0.2__merged_boards/IDE_Board_Manager/prusa3dboards-1.0.2-a.tar.bz2",
+          "archiveFileName": "prusa3dboards-1.0.2-a.tar.bz2",
+          "checksum": "SHA-256:7d49c48d86644513bd2f2222024934e827783f9f5be160c8a1ae14e177d0393a",
+          "size": "120855",
+          "help": {
+            "online": "https://learn.sparkfun.com/tutorials/installing-arduino-ide/board-add-ons-with-arduino-board-manager"
+          },
+          "boards": [
+            {
+              "name": "Original Prusa i3 MK3/MK3S Einsy RAMBo"
+            }
+          ],
+          "toolsDependencies": []
+        },
+        {
+          "name": "Prusa Research AVR MK3/MK3S Einsy RAMBo",
+          "architecture": "avr",
+          "version": "1.0.2",
+          "category": "Contributed",
+          "url": "https://raw.githubusercontent.com/3d-gussner/Arduino_Boards/V1.0.2/IDE_Board_Manager/prusa3deinsyrambo-1.0.2.tar.bz2",
+          "archiveFileName": "prusa3deinsyrambo-1.0.2.tar.bz2",
+          "checksum": "SHA-256:4ab2851a6787ea1fd888eec206bf849fb65eb383e6dd67bb0932a6d315e88112",
+          "size": "91124",
+          "help": {
+            "online": "https://learn.sparkfun.com/tutorials/installing-arduino-ide/board-add-ons-with-arduino-board-manager"
+          },
+          "boards": [
+            {
+              "name": "Original Prusa i3 MK3/MK3S Einsy RAMBo"
+            }
+          ],
+          "toolsDependencies": []
+        },
+        {
+          "name": "Prusa Research AVR MK3/MK3S Einsy RAMBo",
+          "architecture": "avr",
+          "version": "1.0.1",
+          "category": "Contributed",
+          "url": "https://raw.githubusercontent.com/3d-gussner/Arduino_Boards/V1.0.2/IDE_Board_Manager/prusa3drambo-1.0.1.tar.bz2",
+          "archiveFileName": "prusa3drambo-1.0.1.tar.bz2",
+          "checksum": "SHA-256:68996c5de9e29603bdff3d8b7aba115f30e37383e7a3e9b89921799574d1cb31",
+          "size": "53425",
+          "help": {
+            "online": "https://github.com/3d-gussner/Arduino_Boards/blob/V1.0.2_merged_boards/IDE_Board_Manager/prusa3dboards-1.0.1.md"
+          },
+          "boards": [
+            {
+              "name": "Original Prusa i3 MK3/MK3S Einsy RAMBo"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "4.9.2-atmel3.5.4-arduino2"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.3.0-arduino9"
+            }
+          ]
+        },
+        {
           "name": "Prusa Research AVR MK3 RAMBo EINSy",
           "architecture": "avr",
           "version": "1.0.0",
           "category": "Contributed",
-          "url": "https://raw.githubusercontent.com/3d-gussner/Arduino_Boards/V1.0.1/IDE_Board_Manager/prusa3drambo-1.0.0.tar.bz2",
+          "url": "https://raw.githubusercontent.com/3d-gussner/Arduino_Boards/V1.0.2/IDE_Board_Manager/prusa3drambo-1.0.0.tar.bz2",
           "archiveFileName": "prusa3drambo-1.0.0.tar.bz2",
           "checksum": "SHA-256:73ec40b02ae2a13c6016057e3ba49731b8ccab71b5ed7c913f6d698819f24838",
           "size": "53396",
           "help": {
-            "online": "https://learn.sparkfun.com/tutorials/installing-arduino-ide/board-add-ons-with-arduino-board-manager"
+            "online": "https://github.com/3d-gussner/Arduino_Boards/blob/V1.0.2_merged_boards/IDE_Board_Manager/prusa3dboards-1.0.1.md"
           },
           "boards": [
             {

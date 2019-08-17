@@ -43,3 +43,31 @@ prusa_mm_control.build.board=AVR_prusa_mm_control
 prusa_mm_control.build.core=arduino:arduino
 prusa_mm_control.build.variant=prusa_mm_control
 prusa_mm_control.build.extra_flags={build.usb_flags}
+
+########################################
+########## Prusa Einsy RAMBo ###########
+########################################
+prusa_einsy_rambo.name=PrusaResearch Einsy RAMBo
+prusa_einsy_rambo.vid.0=0x27b1
+prusa_einsy_rambo.pid.0=0x0001
+
+prusa_einsy_rambo.upload.tool=avrdude
+prusa_einsy_rambo.upload.protocol=wiring
+prusa_einsy_rambo.upload.maximum_size=253952
+prusa_einsy_rambo.upload.speed=115200
+
+prusa_einsy_rambo.bootloader.tool=avrdude
+prusa_einsy_rambo.bootloader.low_fuses=0xFF
+prusa_einsy_rambo.bootloader.high_fuses=0xD8
+prusa_einsy_rambo.bootloader.extended_fuses=0xFD
+prusa_einsy_rambo.bootloader.path=prusa_einsy_rambo
+prusa_einsy_rambo.bootloader.file=prusa_einsy_rambo/stk500boot_v2_mega2560.hex
+prusa_einsy_rambo.bootloader.unlock_bits=0x3F
+prusa_einsy_rambo.bootloader.lock_bits=0x0F
+
+prusa_einsy_rambo.build.mcu=atmega2560
+prusa_einsy_rambo.build.f_cpu=16000000L
+prusa_einsy_rambo.build.board=AVR_PRUSA_EINSY_RAMBO
+prusa_einsy_rambo.build.core=prusa_einsy_rambo
+prusa_einsy_rambo.build.variant=prusa_einsy_rambo
+prusa_einsy_rambo.compiler.c.elf.extra_flags=-Wl,-u,vfprintf -lprintf_flt -lm
