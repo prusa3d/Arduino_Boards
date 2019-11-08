@@ -6,7 +6,7 @@
       "websiteURL": "https://www.prusa3d.com/",
       "email": "info@prusa3d.com",
       "help": {
-        "online": "https://github.com/3d-gussner/Arduino_Boards"
+        "online": "https://github.com/prusa3d/Arduino_Boards"
       },
       "platforms": [
         {
@@ -14,12 +14,12 @@
           "architecture": "avr",
           "version": "1.0.2",
           "category": "Contributed",
-          "url": "https://raw.githubusercontent.com/3d-gussner/Arduino_Boards/V1.0.2/IDE_Board_Manager/prusa3dboards-1.0.2.tar.bz2",
+          "url": "https://raw.githubusercontent.com/prusa3d/Arduino_Boards/master/IDE_Board_Manager/prusa3dboards-1.0.2.tar.bz2",
           "archiveFileName": "prusa3dboards-1.0.2.tar.bz2",
           "checksum": "SHA-256:6a7f6c4a932786b7e68f81a16fae050aa94c8dae0c742ea3c7b9af52e62858a5",
           "size": "101166",
           "help": {
-            "online": "https://github.com/3d-gussner/Arduino_Boards/blob/V1.0.2/IDE_Board_Manager/prusa3dboards-1.0.2.md"
+            "online": "https://github.com/prusa3d/Arduino_Boards/blob/master/IDE_Board_Manager/prusa3dboards-1.0.2.md"
           },
           "boards": [
             {
@@ -36,12 +36,12 @@
           "architecture": "avr",
           "version": "1.0.1",
           "category": "Contributed",
-          "url": "https://raw.githubusercontent.com/3d-gussner/Arduino_Boards/V1.0.2/IDE_Board_Manager/prusa3dboards-1.0.1.tar.bz2",
+          "url": "https://raw.githubusercontent.com/prusa3d/Arduino_Boards/master/IDE_Board_Manager/prusa3dboards-1.0.1.tar.bz2",
           "archiveFileName": "prusa3dboards-1.0.1.tar.bz2",
           "checksum": "SHA-256:858cec0d14a549f637a558e51de29917796b37eaa9e1e8d6bd7449ba6bcd1ffd",
           "size": "32469",
           "help": {
-            "online": "https://learn.sparkfun.com/tutorials/installing-arduino-ide/board-add-ons-with-arduino-board-manager"
+            "online": "https://github.com/prusa3d/Arduino_Boards/blob/master/IDE_Board_Manager/prusa3dboards-1.0.1.md"
           },
           "boards": [
             {
@@ -55,12 +55,12 @@
           "architecture": "avr",
           "version": "1.0.0",
           "category": "Contributed",
-          "url": "https://raw.githubusercontent.com/3d-gussner/Arduino_Boards/V1.0.2/IDE_Board_Manager/prusa3dboards-1.0.0.tar.bz2",
+          "url": "https://raw.githubusercontent.com/prusa3d/Arduino_Boards/master/IDE_Board_Manager/prusa3dboards-1.0.0.tar.bz2",
           "archiveFileName": "prusa3dboards-1.0.0.tar.bz2",
           "checksum": "SHA-256:df1061544109119ffaa2ea3fa9820aa6469f288213661e23405b7f190fd71b12",
           "size": "32792",
           "help": {
-            "online": "https://github.com/3d-gussner/Arduino_Boards/blob/V1.0.2_merged_boards/IDE_Board_Manager/prusa3dboards-1.0.0.md"
+            "online": "https://github.com/prusa3d/Arduino_Boards/blob/master/IDE_Board_Manager/prusa3dboards-1.0.0.md"
           },
           "boards": [
             {
@@ -78,7 +78,7 @@
       "websiteURL": "https://www.prusa3d.com/",
       "email": "info@prusa3d.com",
       "help": {
-        "online": "https://github.com/3d-gussner/Arduino_Boards"
+        "online": "https://github.com/prusa3d/Arduino_Boards"
       },
       "platforms": [
         {
@@ -86,12 +86,12 @@
           "architecture": "avr",
           "version": "1.0.1",
           "category": "Contributed",
-          "url": "https://raw.githubusercontent.com/3d-gussner/Arduino_Boards/V1.0.2/IDE_Board_Manager/prusa3drambo-1.0.1.tar.bz2",
+          "url": "https://raw.githubusercontent.com/prusa3d/Arduino_Boards/master/IDE_Board_Manager/prusa3drambo-1.0.1.tar.bz2",
           "archiveFileName": "prusa3drambo-1.0.1.tar.bz2",
           "checksum": "SHA-256:68996c5de9e29603bdff3d8b7aba115f30e37383e7a3e9b89921799574d1cb31",
           "size": "53425",
           "help": {
-            "online": "https://github.com/3d-gussner/Arduino_Boards/blob/V1.0.2_merged_boards/IDE_Board_Manager/prusa3dboards-1.0.1.md"
+            "online": "https://github.com/prusa3d/Arduino_Boards/blob/master/IDE_Board_Manager/prusa3dboards-1.0.1.md"
           },
           "boards": [
             {
@@ -116,12 +116,12 @@
           "architecture": "avr",
           "version": "1.0.0",
           "category": "Contributed",
-          "url": "https://raw.githubusercontent.com/3d-gussner/Arduino_Boards/V1.0.2/IDE_Board_Manager/prusa3drambo-1.0.0.tar.bz2",
+          "url": "https://raw.githubusercontent.com/prusa3d/Arduino_Boards/master/IDE_Board_Manager/prusa3drambo-1.0.0.tar.bz2",
           "archiveFileName": "prusa3drambo-1.0.0.tar.bz2",
           "checksum": "SHA-256:73ec40b02ae2a13c6016057e3ba49731b8ccab71b5ed7c913f6d698819f24838",
           "size": "53396",
           "help": {
-            "online": "https://github.com/3d-gussner/Arduino_Boards/blob/V1.0.2_merged_boards/IDE_Board_Manager/prusa3dboards-1.0.1.md"
+            "online": "https://github.com/prusa3d/Arduino_Boards/blob/master/IDE_Board_Manager/prusa3dboards-1.0.1.md"
           },
           "boards": [
             {
