@@ -37,7 +37,7 @@
 
 volatile unsigned long timer0_overflow_count = 0;
 volatile unsigned long timer0_millis = 0;
-static unsigned char timer0_fract = 0;
+//static unsigned char timer0_fract = 0;
 
 // As of Prusa Firmware 3.8 we need to disable the Arduino's hardcoded TIMER0_OVF_vect
 // to be able to replace it with our own implementation for HW PWM heatbed control.
