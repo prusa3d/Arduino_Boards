@@ -70,4 +70,4 @@ prusa_einsy_rambo.build.f_cpu=16000000L
 prusa_einsy_rambo.build.board=AVR_PRUSA_EINSY_RAMBO
 prusa_einsy_rambo.build.core=prusa_einsy_rambo
 prusa_einsy_rambo.build.variant=prusa_einsy_rambo
-prusa_einsy_rambo.compiler.c.elf.extra_flags=-Wl,-u,vfprintf -lprintf_flt -lm
+prusa_einsy_rambo.compiler.c.elf.extra_flags=-Wl,-u,vfprintf -lprintf_flt -lm -Wl,--script={runtime.platform.path}/ldscripts/avr6.xn
