@@ -35,15 +35,15 @@
 #define FRACT_INC ((MICROSECONDS_PER_TIMER0_OVERFLOW % 1000) >> 3)
 #define FRACT_MAX (1000 >> 3)
 
+#ifdef HAS_SYSTEM_TIMER_0
 volatile unsigned long timer0_overflow_count = 0;
 volatile unsigned long timer0_millis = 0;
-//static unsigned char timer0_fract = 0;
+static unsigned char timer0_fract = 0;
 
 // As of Prusa Firmware 3.8 we need to disable the Arduino's hardcoded TIMER0_OVF_vect
 // to be able to replace it with our own implementation for HW PWM heatbed control.
 // That's also the one and only reason we need to define our own "board"
 // for the Arduino IDE.
-#if 0
 
 #if defined(__AVR_ATtiny24__) || defined(__AVR_ATtiny44__) || defined(__AVR_ATtiny84__)
 ISR(TIM0_OVF_vect)
@@ -67,8 +67,6 @@ ISR(TIMER0_OVF_vect)
 	timer0_millis = m;
 	timer0_overflow_count++;
 }
-
-#endif
 
 unsigned long millis()
 {
@@ -123,6 +121,8 @@ void delay(unsigned long ms)
 		}
 	}
 }
+
+#endif //HAS_SYSTEM_TIMER_0
 
 /* Delay for the given number of microseconds.  Assumes a 1, 8, 12, 16, 20 or 24 MHz clock. */
 void delayMicroseconds(unsigned int us)
