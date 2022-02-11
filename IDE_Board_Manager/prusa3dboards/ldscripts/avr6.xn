@@ -86,18 +86,9 @@ SECTIONS
   {
     *(.vectors)
     KEEP(*(.vectors))
-    /* For data that needs to reside in the lower 64k of progmem.  */
-    *(.progmem.gcc*)
-    /* PR 13812: Placing the trampolines here gives a better chance
-       that they will be in range of the code that uses them.  */
-    . = ALIGN(2);
-    __trampolines_start = . ;
-    /* The jump trampolines for the 16-bit limited relocs will reside here.  */
-    *(.trampolines)
-    *(.trampolines*)
-    __trampolines_end = . ;
 
     /* Custom sections for language data */
+     . = ALIGN(256);
      __loc_sec_start = . ;
     *(.loc_sec)
     KEEP(*(.loc_sec))
@@ -110,6 +101,17 @@ SECTIONS
     *(.noloc)
     KEEP(*(.noloc))
      __noloc_end = . ;
+
+    /* For data that needs to reside in the lower 64k of progmem.  */
+    *(.progmem.gcc*)
+    /* PR 13812: Placing the trampolines here gives a better chance
+       that they will be in range of the code that uses them.  */
+    . = ALIGN(2);
+    __trampolines_start = . ;
+    /* The jump trampolines for the 16-bit limited relocs will reside here.  */
+    *(.trampolines)
+    *(.trampolines*)
+    __trampolines_end = . ;
 
     /* avr-libc expects these data to reside in lower 64K. */
     *libprintf_flt.a:*(.progmem.data)
