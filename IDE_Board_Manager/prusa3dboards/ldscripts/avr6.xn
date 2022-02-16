@@ -88,7 +88,6 @@ SECTIONS
     KEEP(*(.vectors))
 
     /* Custom sections for language data */
-     . = ALIGN(256);
      __loc_sec_start = . ;
     *(.loc_sec)
     KEEP(*(.loc_sec))
