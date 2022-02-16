@@ -238,6 +238,10 @@ SECTIONS
   {
     KEEP(*(.signature*))
   }  > signature
+  .user_signatures  :
+  {
+    KEEP(*(.user_signatures*))
+  }  > user_signatures
   /* Stabs debugging sections.  */
   .stab 0 : { *(.stab) }
   .stabstr 0 : { *(.stabstr) }
