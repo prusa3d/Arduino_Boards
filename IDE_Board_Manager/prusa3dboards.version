@@ -1,3 +1,4 @@
+1.0.5   # switch to Arduino IDE 1.8.19 @wavexx updated linker_script @leptun realign_lang_area
 1.0.4   # Rework compiler flags, linker script, Make builds more reproducible, not compiling millis by @wavexx and @leptun
 1.0.3   # Fix "timer0_fract = 0;" warning
 1.0.2   # With bootloader and compiler.c.elf.extra_flags for Prusa Einsy/RAMBo Prusa Frimware
