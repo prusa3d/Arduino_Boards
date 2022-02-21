@@ -15,11 +15,7 @@
 - Added Prusa vid/pid to boards
 - [Update linker script for 1.8.19](https://github.com/prusa3d/Arduino_Boards/pull/14)
 - [Align the language area differently](https://github.com/prusa3d/Arduino_Boards/pull/15)
-- [Rework compiler flags](https://github.com/prusa3d/Arduino_Boards/pull/10)
-- [Save a bit more ram by not compiling millis at all](https://github.com/prusa3d/Arduino_Boards/pull/12)
-- [Add linker script](https://github.com/prusa3d/Arduino_Boards/pull/11)
-- [Make builds more reproducible through -frandom-seed](https://github.com/prusa3d/Arduino_Boards/pull/8)
-
+- [Reduce warnings when using gcc 7+](https://github.com/prusa3d/Arduino_Boards/pull/9)
 Folder Structure:
 ```
 .
