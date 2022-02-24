@@ -45,7 +45,7 @@ static unsigned char timer0_fract = 0;
 // That's also the one and only reason we need to define our own "board"
 // for the Arduino IDE.
 
-#if defined(__AVR_ATtiny24__) || defined(__AVR_ATtiny44__) || defined(__AVR_ATtiny84__)
+#if defined(TIM0_OVF_vect)
 ISR(TIM0_OVF_vect)
 #else
 ISR(TIMER0_OVF_vect)
