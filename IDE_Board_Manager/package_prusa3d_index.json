@@ -14,7 +14,7 @@
           "architecture": "avr",
           "version": "1.0.5.1",
           "category": "Contributed",
-          "url": "https://raw.githubusercontent.com/prusa3d/Arduino_Boards/devel/IDE_Board_Manager/prusa3dboards-1.0.5.1.tar.bz2",
+          "url": "https://raw.githubusercontent.com/3d-gussner/Arduino_Boards/devel/IDE_Board_Manager/prusa3dboards-1.0.5.1.tar.bz2",
           "archiveFileName": "prusa3dboards-1.0.5.1.tar.bz2",
           "checksum": "SHA-256:5e101b667dfd9197610fc253b0c4c400a978e651c904fd215b8bd9d060fcc5ec",
           "size": "105084",
