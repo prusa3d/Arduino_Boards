@@ -16,8 +16,8 @@
           "category": "Contributed",
           "url": "https://raw.githubusercontent.com/prusa3d/Arduino_Boards/devel/IDE_Board_Manager/prusa3dboards-1.0.5-1.tar.bz2",
           "archiveFileName": "prusa3dboards-1.0.5-1.tar.bz2",
-          "checksum": "SHA-256:5e101b667dfd9197610fc253b0c4c400a978e651c904fd215b8bd9d060fcc5ec",
-          "size": "105084",
+          "checksum": "SHA-256:2bbd191a53dd8d576e693b2db4b2cdaa9b96f476678327e08f0a984b22b34a2a",
+          "size": "105180",
           "help": {
             "online": "https://github.com/prusa3d/Arduino_Boards/blob/devel/IDE_Board_Manager/prusa3dboards-1.0.5-1.md"
           },
