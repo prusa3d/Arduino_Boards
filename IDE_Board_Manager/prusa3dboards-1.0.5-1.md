@@ -122,6 +122,8 @@ File Structure:
 │   ├── prusa3dboards-1.0.3.tar.bz2
 │   ├── prusa3dboards-1.0.4.md
 │   ├── prusa3dboards-1.0.4.tar.bz2
+│   ├── prusa3dboards-1.0.5-1.md
+│   ├── prusa3dboards-1.0.5-1.tar.bz2
 │   ├── prusa3dboards-1.0.5.md
 │   ├── prusa3dboards-1.0.5.tar.bz2
 │   ├── prusa3dboards.version
