@@ -1,9 +1,9 @@
-# Prusa Research Boards definition version 1.0.5-1
+# Prusa Research Boards definition version 1.0.5-2
 
 ## Boards supported
 - [Prusa MM control board](https://github.com/prusa3d/MM-control-2.0) using prusa3dboards-1.0.2.tar.bz2
   - including bootloader
-- Einsy/miniRAMBo boards using prusa3dboards-1.0.5.1.tar.bz2
+- Einsy/miniRAMBo boards using prusa3dboards-1.0.5.2.tar.bz2
   - including bootloader
   - [Einsys](https://reprap.org/wiki/EinsyRambo)
   - [miniRAMbo](https://reprap.org/wiki/MiniRambo)
@@ -11,7 +11,7 @@
 - Restricted cores version for the Einsy/miniRAMBo boards
 
 ## Changes to previous version
-- Use c++17
+- New gcc warning fix
 Folder Structure:
 ```
 .
@@ -75,7 +75,6 @@ File Structure:
 │   │   │       ├── IPAddress.h
 │   │   │       ├── main.cpp
 │   │   │       ├── new
-│   │   │       ├── new.cpp
 │   │   │       ├── new.h
 │   │   │       ├── PluggableUSB.cpp
 │   │   │       ├── PluggableUSB.h
@@ -124,6 +123,8 @@ File Structure:
 │   ├── prusa3dboards-1.0.4.tar.bz2
 │   ├── prusa3dboards-1.0.5-1.md
 │   ├── prusa3dboards-1.0.5-1.tar.bz2
+│   ├── prusa3dboards-1.0.5-2.md
+│   ├── prusa3dboards-1.0.5-2.tar.bz2
 │   ├── prusa3dboards-1.0.5.md
 │   ├── prusa3dboards-1.0.5.tar.bz2
 │   ├── prusa3dboards.version
