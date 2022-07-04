@@ -1,3 +1,4 @@
+1.0.5-2 # New gcc warning fix
 1.0.5-1 # Use c++17
 1.0.5   # switch to Arduino IDE 1.8.19 @wavexx updated linker_script, fix_gcc_warnings @leptun realign_lang_area
 1.0.4   # Rework compiler flags, linker script, Make builds more reproducible, not compiling millis by @wavexx and @leptun
