@@ -48,8 +48,12 @@ prusa_mm_control.build.extra_flags={build.usb_flags}
 ########## Prusa Einsy RAMBo ###########
 ########################################
 prusa_einsy_rambo.name=PrusaResearch Einsy RAMBo
-prusa_einsy_rambo.vid.0=0x27b1
+prusa_einsy_rambo.vid.0=0x2c99
 prusa_einsy_rambo.pid.0=0x0001
+prusa_einsy_rambo.vid.1=0x2c99
+prusa_einsy_rambo.pid.1=0x0002
+prusa_einsy_rambo.vid.2=0x27b1
+prusa_einsy_rambo.pid.2=0x0001
 
 prusa_einsy_rambo.upload.tool=avrdude
 prusa_einsy_rambo.upload.protocol=wiring
