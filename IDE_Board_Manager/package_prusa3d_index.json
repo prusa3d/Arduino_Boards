@@ -12,6 +12,28 @@
         {
           "name": "Prusa Research AVR Boards",
           "architecture": "avr",
+          "version": "1.0.6",
+          "category": "Contributed",
+          "url": "https://raw.githubusercontent.com/prusa3d/Arduino_Boards/master/IDE_Board_Manager/prusa3dboards-1.0.6.tar.bz2",
+          "archiveFileName": "prusa3dboards-1.0.6.tar.bz2",
+          "checksum": "SHA-256:980aeec3cc9be7dea13b65b670735113c11d7931b265dfa8734854f60323c11b",
+          "size": "104898",
+          "help": {
+            "online": "https://github.com/prusa3d/Arduino_Boards/blob/master/IDE_Board_Manager/prusa3dboards-1.0.6.md"
+          },
+          "boards": [
+            {
+              "name": "Original Prusa i3 MK3 Multi Material 2.0 upgrade"
+            },
+            {
+              "name": "Original Prusa i3 MK3/MK3S Einsy RAMBo"
+            }
+          ],
+          "toolsDependencies": []
+        },
+        {
+          "name": "Prusa Research AVR Boards",
+          "architecture": "avr",
           "version": "1.0.5-2",
           "category": "Contributed",
           "url": "https://raw.githubusercontent.com/prusa3d/Arduino_Boards/master/IDE_Board_Manager/prusa3dboards-1.0.5-2.tar.bz2",
