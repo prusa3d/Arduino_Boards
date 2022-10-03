@@ -14,12 +14,12 @@
           "architecture": "avr",
           "version": "1.0.5-2",
           "category": "Contributed",
-          "url": "https://raw.githubusercontent.com/prusa3d/Arduino_Boards/devel/IDE_Board_Manager/prusa3dboards-1.0.5-2.tar.bz2",
+          "url": "https://raw.githubusercontent.com/prusa3d/Arduino_Boards/master/IDE_Board_Manager/prusa3dboards-1.0.5-2.tar.bz2",
           "archiveFileName": "prusa3dboards-1.0.5-2.tar.bz2",
           "checksum": "SHA-256:4b89686f0987f69ba64102143b792ad260116f20cbddf69201efa277eb3c2659",
           "size": "104936",
           "help": {
-            "online": "https://github.com/prusa3d/Arduino_Boards/blob/devel/IDE_Board_Manager/prusa3dboards-1.0.5-2.md"
+            "online": "https://github.com/prusa3d/Arduino_Boards/blob/master/IDE_Board_Manager/prusa3dboards-1.0.5-2.md"
           },
           "boards": [
             {
@@ -36,12 +36,12 @@
           "architecture": "avr",
           "version": "1.0.5-1",
           "category": "Contributed",
-          "url": "https://raw.githubusercontent.com/prusa3d/Arduino_Boards/devel/IDE_Board_Manager/prusa3dboards-1.0.5-1.tar.bz2",
+          "url": "https://raw.githubusercontent.com/prusa3d/Arduino_Boards/master/IDE_Board_Manager/prusa3dboards-1.0.5-1.tar.bz2",
           "archiveFileName": "prusa3dboards-1.0.5-1.tar.bz2",
           "checksum": "SHA-256:245975ff264d01846ed493f9336a3f9b898ed7ee7640a227e9a9dccd64af94af",
           "size": "105036",
           "help": {
-            "online": "https://github.com/prusa3d/Arduino_Boards/blob/devel/IDE_Board_Manager/prusa3dboards-1.0.5-1.md"
+            "online": "https://github.com/prusa3d/Arduino_Boards/blob/master/IDE_Board_Manager/prusa3dboards-1.0.5-1.md"
           },
           "boards": [
             {
@@ -58,12 +58,12 @@
           "architecture": "avr",
           "version": "1.0.5",
           "category": "Contributed",
-          "url": "https://raw.githubusercontent.com/prusa3d/Arduino_Boards/devel/IDE_Board_Manager/prusa3dboards-1.0.5.tar.bz2",
+          "url": "https://raw.githubusercontent.com/prusa3d/Arduino_Boards/master/IDE_Board_Manager/prusa3dboards-1.0.5.tar.bz2",
           "archiveFileName": "prusa3dboards-1.0.5.tar.bz2",
           "checksum": "SHA-256:cca990409f5eb50ab54a8ed187677b03a1882b9d859233d9a5385e8a9d97c7cc",
           "size": "105168",
           "help": {
-            "online": "https://github.com/prusa3d/Arduino_Boards/blob/devel/IDE_Board_Manager/prusa3dboards-1.0.5.md"
+            "online": "https://github.com/prusa3d/Arduino_Boards/blob/master/IDE_Board_Manager/prusa3dboards-1.0.5.md"
           },
           "boards": [
             {
